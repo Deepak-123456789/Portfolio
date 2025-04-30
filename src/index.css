@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Max-width utility */
+.max-width {
+  @apply lg:mx-auto lg:px-24 xl:px-48 px-5;
+}
+
+/* Gradient background */
+.bg-gradient {
+  @apply bg-gradient-to-r from-sky-500 via-purple-500 to-pink-600;
+}
+
+/* Gradient text */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-purple-500 to-pink-600;
+}
+
+/* Section padding utility */
+.section {
+  @apply pt-28 xl:pt-28 2xl:pt-44;
+}
+
+/* Text content color */
+.text-content {
+  @apply dark:text-light-content text-dark-content;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  color: #313030;
+}
