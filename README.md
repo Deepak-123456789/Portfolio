@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 ## 🔗 Live Demo
 
-Personal Portfolio(https://yourname.vercel.app)
+Personal Portfolio[portfolio-deepak-mers-projects.vercel.app]
 
 ## 🚀 Tech Stack
 
